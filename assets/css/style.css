@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+    color: white;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color:white;
+}
+
+.nav-item:hover {
+    font-weight: bold;
+}
+
+.navbar-toggler{
+    background-color: white
+}
+
+.btn{
+    --bs-btn-color: #fff;
+    --bs-btn-bg: transparent
+    --bs-btn-border-color: white;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: transparent;
+    --bs-btn-hover-border-color: white;
+    --bs-btn-focus-shadow-rgb: 130, 138, 145;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: transparent;
+    --bs-btn-active-border-color: white;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: white;
+    border-radius: 0;
+}
+
+
+section > div:nth-child(2) > i{
+    border: solid 1px white;
+    height: 40px;
+    width: 50px;
+    align-content: center;
+    padding-left: 18px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+
+.img-fluid{
+    transition: transform 0.2s;
+}
+
+.img-fluid:hover{
+    transform: scale(1.2);
+}
