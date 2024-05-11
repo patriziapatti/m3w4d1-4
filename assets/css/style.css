@@ -14,7 +14,12 @@ body{
     background-color: white
 }
 
-.btn{
+#netflixbtn{
+    background-color: black;
+    border: none;
+}
+
+#menu .btn{
     --bs-btn-color: #fff;
     --bs-btn-bg: transparent
     --bs-btn-border-color: white;
@@ -32,8 +37,15 @@ body{
     border-radius: 0;
 }
 
+#menu i{
+    cursor: pointer;
+}
 
-section > div:nth-child(2) > i{
+#menu i:hover{
+    border: 2px solid;
+}
+
+section> div:nth-child(2) > i{
     border: solid 1px white;
     height: 40px;
     width: 50px;
@@ -59,6 +71,10 @@ section > div:nth-child(2) > i{
     transition: opacity .15s ease;
 }
 
+section *{
+    overflow: visible !important;
+}
+
 .img-fluid{
     transition: transform 0.2s;
 }
@@ -79,9 +95,19 @@ footer > div > div > div > ul > li{
     list-style: none;
 }
 
+
 #service{
     background-color: transparent;
     color: grey;
     border: solid 1px gray;
 }
 
+.movies{
+    transition: transform 1s linear;
+}
+
+
+.hidden{
+    transform: translateX(110%);
+
+}
