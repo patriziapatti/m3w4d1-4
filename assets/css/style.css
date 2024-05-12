@@ -108,6 +108,6 @@ footer > div > div > div > ul > li{
 
 
 .hidden{
-    transform: translateX(110%);
+    transform: translatex(-110%);
 
 }
